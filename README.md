@@ -46,11 +46,8 @@ tests/
 ## Quickstart
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install '.[dev]'
-cp .env.example .env
-uvicorn app.main:app --reload
+make setup
+make run
 ```
 
 Open: `http://127.0.0.1:8000/docs`
